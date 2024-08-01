@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.todo-container {
+    background: #fff;
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 400px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+#new-task {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 20px;
+    border: none;
+    border-radius: 3px;
+    background: #28a745;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background: #218838;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #eee;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li button {
+    background: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-left: 10px;
+    margin-top: 22px;
+}
+
+li button:hover {
+    background: #c82333;
+}
+
+.edit-button {
+    background: #ffc107;
+    color: white;
+}
+
+.edit-button:hover {
+    background: #e0a800;
+}
+
+.save-button {
+    background: #007bff;
+    color: white;
+}
+
+.save-button:hover {
+    background: #0069d9;
+}
+
+.delete-button {
+    background: #0069d9;
+    color: white;
+}
+
+.delete-button:hover {
+    background: #0069d9;
+}
