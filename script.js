@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 taskItem.replaceChild(editInput, taskSpan);
 
                 const saveButton = document.createElement('button')
-                saveButton.textContent = 'Save';
+                saveButton.textContent = 'Complete';
                 saveButton.addEventListener('click', function() {
                     const newTaskText = editInput.value.trim();
                     if (newTaskText !== '') {
